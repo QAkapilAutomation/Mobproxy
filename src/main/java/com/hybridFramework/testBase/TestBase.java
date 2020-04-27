@@ -64,12 +64,6 @@ public class TestBase {
 	public static final Logger logger = Logger.getLogger(TestBase.class.getName());
 	public static WebDriver driver;
 	public static Home homePage;
-	public static ResearchCenter_Footer footer;
-	public static ResearchCenter_FindSources findSources;
-	public static ResearchCenter_MacroeconomicInformation macroEconomics;
-	public static ResearchCenter_AnalystReports analystReport;
-	public static ResearchCenter_NewsSources newSources;
-	public static ResearchCenter_CompanyInformation companyInfo;
 	public static Properties OR;
 	public static ExtentReports extent;
 	public static ExtentTest test;
@@ -87,7 +81,7 @@ public class TestBase {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
 		extent = new ExtentReports(
-				System.getProperty("user.dir") + "/src/main/java/com/hybridFramework/report/BCG_AdobeAnalytics_"
+				System.getProperty("user.dir") + "/src/main/java/com/hybridFramework/report/TestDemo_"
 						+ formater.format(calendar.getTime()) + ".html",
 				false);
 	}
@@ -141,7 +135,7 @@ public class TestBase {
 			proxy.start(0);
 			Proxy seleniumProxy = ClientUtil.createSeleniumProxy(proxy);
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\kumar kapil\\Downloads\\KCTool_Framework\\drivers\\chromedriver.exe");
+					"C:\\Users\\kumar kapil\\Downloads\\TestDemo\\drivers\\chromedriver.exe");
 			ChromeOptions option = new ChromeOptions();
 			LoggingPreferences logprefs = new LoggingPreferences();
 			option.setCapability(CapabilityType.LOGGING_PREFS, logprefs);
