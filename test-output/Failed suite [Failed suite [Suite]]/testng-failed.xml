@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]" parallel="none">
+  <test name="Test(failed)(failed)(failed)" parallel="none">
+    <classes>
+      <class name="com.hybridFramework.ResearchCentre.TSResearchCenter_CompanyInformation">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Setup"/>
+          <include name="endTest"/>
+          <include name="TC107_RC13_Company_Information_SourcePage_Remove_From_Favorite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.hybridFramework.ResearchCentre.TSResearchCenter_CompanyInformation -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

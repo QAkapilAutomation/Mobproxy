@@ -1,0 +1,7 @@
+2019-07-18 11:56:16 INFO  TestBase:172 - loading config.properties
+2019-07-18 11:56:22 INFO  WaitHelper:29 - 30
+2019-07-18 11:56:22 INFO  WaitHelper:34 - 240
+2019-07-18 11:57:17 INFO  WaitHelper:59 - element found...Welcome, Kapil Kumar (Global Version)
+2019-07-18 11:57:17 INFO  TSResearchCenter_MacroeconomicInformation:367 - com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation start
+2019-07-18 11:57:36 INFO  WaitHelper:59 - element found...Welcome, Kapil Kumar (Global Version)
+2019-07-18 11:58:18 INFO  Excel_reader:25 - Creating excel object:-C:\Automation\ResearchCenter\src\main\java\com\hybridFramework\data\MacroeconomicInformationTest_Data.xlsx

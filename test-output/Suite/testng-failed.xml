@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation">
+        <methods>
+          <include name="TC120_RC01_Macroeconomic_Information_Go"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation -->
+      <class name="com.hybridFramework.ResearchCentre.TSResearchCentre_Home">
+        <methods>
+          <include name="Setup"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.hybridFramework.ResearchCentre.TSResearchCentre_Home -->
+      <class name="com.hybridFramework.ResearchCentre.TSResearchCentre_NewsSources">
+        <methods>
+          <include name="TC65_RC3_1_New_Sources_Essential_Sources_Link"/>
+          <include name="Setup"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="TC76_RC3_1_News_Sources_Search_Make_My_Default_language"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.hybridFramework.ResearchCentre.TSResearchCentre_NewsSources -->
+      <class name="com.hybridFramework.ResearchCentre.TSResearchCenter_AnalystReports">
+        <methods>
+          <include name="TC79_RC01_AnalystReports_Go"/>
+          <include name="TC84_RC19_Analyst_Reports_SourcePage_Go"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.hybridFramework.ResearchCentre.TSResearchCenter_AnalystReports -->
+      <class name="com.hybridFramework.ResearchCentre.TSResearchCenter_FindSources">
+        <methods>
+          <include name="Setup"/>
+          <include name="TC31_RC61_Find_Sources_All_Sources_Link"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="TC20_RC25_26_30_FindSources_Search"/>
+        </methods>
+      </class> <!-- com.hybridFramework.ResearchCentre.TSResearchCenter_FindSources -->
+      <class name="com.hybridFramework.ResearchCentre.TSResearchCenter_CompanyInformation">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Setup"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.hybridFramework.ResearchCentre.TSResearchCenter_CompanyInformation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

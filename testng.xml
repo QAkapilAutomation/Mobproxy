@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.hybridFramework.ResearchCentre.TSResearchCentre_Home"/>
+      <class name="com.hybridFramework.ResearchCentre.TSResearchCenter_FindSources"/>
+      <class name="com.hybridFramework.ResearchCentre.TSResearchCentre_NewsSources"/>
+      <class name="com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation"/>
+      <class name="com.hybridFramework.ResearchCentre.TSResearchCenter_CompanyInformation"/>
+      <class name="com.hybridFramework.ResearchCentre.TSResearchCenter_AnalystReports"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

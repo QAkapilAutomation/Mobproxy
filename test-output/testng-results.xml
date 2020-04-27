@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="263115" started-at="2019-07-18T06:23:58Z" finished-at="2019-07-18T06:28:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="263115" started-at="2019-07-18T06:23:58Z" finished-at="2019-07-18T06:28:21Z">
+      <class name="com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation@cb51256]" name="Setup" is-config="true" duration-ms="78962" started-at="2019-07-18T11:53:58Z" finished-at="2019-07-18T11:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation@cb51256]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-18T11:55:17Z" finished-at="2019-07-18T11:55:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation.TC134TC160_RC3_1_MacroeconomicInformation_ViewSummary_checkbox() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC134TC160_RC3_1_MacroeconomicInformation_ViewSummary_checkbox()[pri:134, instance:com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation@cb51256]" name="TC134TC160_RC3_1_MacroeconomicInformation_ViewSummary_checkbox" duration-ms="58530" started-at="2019-07-18T11:55:17Z" finished-at="2019-07-18T11:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC134TC160_RC3_1_MacroeconomicInformation_ViewSummary_checkbox -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation@cb51256]" name="afterMethod" is-config="true" duration-ms="1290" started-at="2019-07-18T11:56:15Z" finished-at="2019-07-18T11:56:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC134TC160_RC3_1_MacroeconomicInformation_ViewSummary_checkbox status=SUCCESS method=TSResearchCenter_MacroeconomicInformation.TC134TC160_RC3_1_MacroeconomicInformation_ViewSummary_checkbox()[pri:134, instance:com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation@cb51256] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation@cb51256]" name="Setup" is-config="true" duration-ms="60789" started-at="2019-07-18T11:56:16Z" finished-at="2019-07-18T11:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation@cb51256]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-07-18T11:57:17Z" finished-at="2019-07-18T11:57:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation.TC135_RC3_1_MacroeconomicInformation_Copyright() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="TC135_RC3_1_MacroeconomicInformation_Copyright()[pri:135, instance:com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation@cb51256]" name="TC135_RC3_1_MacroeconomicInformation_Copyright" duration-ms="61204" started-at="2019-07-18T11:57:17Z" finished-at="2019-07-18T11:58:18Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	events is not verified expected [true] but found [false],
+	v1 is not verified expected [true] but found [false],
+	v3 is not verified expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	events is not verified expected [true] but found [false],
+	v1 is not verified expected [true] but found [false],
+	v3 is not verified expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.hybridFramework.PageObject.ResearchCenter_MacroeconomicInformation.verifyEventsAndEvars(ResearchCenter_MacroeconomicInformation.java:58)
+	at com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation.TC135_RC3_1_MacroeconomicInformation_Copyright(TSResearchCenter_MacroeconomicInformation.java:380)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC135_RC3_1_MacroeconomicInformation_Copyright -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation@cb51256]" name="afterMethod" is-config="true" duration-ms="1745" started-at="2019-07-18T11:58:18Z" finished-at="2019-07-18T11:58:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC135_RC3_1_MacroeconomicInformation_Copyright status=FAILURE method=TSResearchCenter_MacroeconomicInformation.TC135_RC3_1_MacroeconomicInformation_Copyright()[pri:135, instance:com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation@cb51256] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation@cb51256]" name="endTest" is-config="true" duration-ms="567" started-at="2019-07-18T11:58:20Z" finished-at="2019-07-18T11:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.hybridFramework.ResearchCentre.TSResearchCenter_MacroeconomicInformation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
