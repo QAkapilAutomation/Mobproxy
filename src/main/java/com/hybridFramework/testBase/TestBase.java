@@ -41,7 +41,7 @@ import com.hybridFramework.PageObject.ResearchCenter_AnalystReports;
 import com.hybridFramework.PageObject.ResearchCenter_CompanyInformation;
 import com.hybridFramework.PageObject.ResearchCenter_FindSources;
 import com.hybridFramework.PageObject.ResearchCenter_Footer;
-import com.hybridFramework.PageObject.ResearchCenter_Home;
+import com.hybridFramework.PageObject.Home;
 import com.hybridFramework.PageObject.ResearchCenter_MacroeconomicInformation;
 import com.hybridFramework.PageObject.ResearchCenter_NewsSources;
 import com.hybridFramework.excelReader.Excel_reader;
@@ -63,7 +63,7 @@ import net.lightbody.bmp.proxy.CaptureType;
 public class TestBase {
 	public static final Logger logger = Logger.getLogger(TestBase.class.getName());
 	public static WebDriver driver;
-	public static ResearchCenter_Home homePage;
+	public static Home homePage;
 	public static ResearchCenter_Footer footer;
 	public static ResearchCenter_FindSources findSources;
 	public static ResearchCenter_MacroeconomicInformation macroEconomics;

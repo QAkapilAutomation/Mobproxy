@@ -12,7 +12,7 @@ import com.hybridFramework.testBase.TestBase;
 import com.relevantcodes.extentreports.LogStatus;
 
 
-public class ResearchCenter_Home extends TestBase {
+public class Home extends TestBase {
 	WebDriver driver;
 	SoftAssert softAssert = new SoftAssert();
 	public static boolean status = false;
@@ -22,68 +22,11 @@ public class ResearchCenter_Home extends TestBase {
 	@FindBy(xpath = "//button[@data-bind='click: expandAll']")
 	public WebElement expandAll;
 
-	@FindBy(xpath = "//button[@data-bind='click: collapseAll']")
-	public WebElement collapseAll;
-
-	@FindBy(xpath = "//*[@id='SummaryView']")
-	public WebElement viewSummaryCheckBox;
-
-	@FindBy(xpath = "//section[@id='EssentialSourcesTab' or @class='essential']/div/div/div/source-card/div/div/img[@alt=\"Click on the BCG Financial Data Portal – S&P Capital IQ Financial Data logo to view more.\"]")
-	public WebElement bCGFinancialDataPortalLogo;
-
-	@FindBy(xpath = "//section[@id='EssentialSourcesTab' or @class='essential']/div/div/div/source-card/div/div/img[@alt=\"Click on the BCG Financial Data Portal – S&P Capital IQ Financial Data logo to view more.\"]/parent::div//a[text()='Go']")
-	public WebElement goToSourceLink;
-
-	@FindBy(xpath = "//div[@class='card-slide' and @style ='']//a[@title='More Info']")
-	public WebElement viewFullSourcedetailsLink;
-
-	@FindBy(xpath = "//a[contains(@href,'/Sources?s=AllSources&c=')][text()='All Sources']")
-	public WebElement allSourceslink;
-
-	@FindBy(xpath = "//*[@id='SummaryView']")
-	public WebElement viewSummaryCheckbox;
-
-	@FindBy(xpath = "//div[@class='card-slide' and @style ='']//a[@title='Share with colleagues']")
-	public WebElement shareWithCollegue_link;
-
-	@FindBy(xpath = "//div[@class='card-slide' and @style ='']//a[@title='Copyright']/span")
-	public WebElement copyRightlink;
-
-	@FindBy(xpath = "//div[@style='min-height: 430px;']//a[@title='Remove from favorites']")
-	//// div[@style='min-height: 430px;']//a[@title='Remove from favorites']
-	public WebElement removeFromFavorites;
-
-	@FindBy(xpath = "//div[@style='min-height: 430px;']//a[@title='Add to favorites']")
-	public WebElement addToFavoritesButton;
-
-	@FindBy(xpath = "//div[@class='card-slide' and @style ='']//a[@title='Training']")
-	public WebElement trainingLink;
-
-	@FindBy(xpath = "//a[@href='#EssentialSources'][contains(text(),'Essential')]")
-	public WebElement essentialSourcesLink;
-
-	@FindBy(xpath = "//div[@class='customize-page']")
-	public WebElement customiseThisPageLink;
-
-	@FindBy(xpath = "//a[@href='/News/BCG']/button[text()='View All']")
-	public WebElement bCGInNewsViewAllButton;
-
-	@FindBy(xpath = "//a[@href='/News/NewsStand?newsSource=ECTIM'][text()='View All']")
-	public WebElement newsStandViewAllButton;
-
-	@FindBy(xpath = "//a[@href='/News/Industry']/button[text()='View All']")
-	public WebElement industryNewsViewAllButton;
-
-	@FindBy(xpath = "//a[@href='/Reports/ViewAll']/button[text()='View All']")
-	public WebElement industryAnalystReprotViewAllButton;
-
-	@FindBy(xpath = "//a[text()='+Choose Your Papers']")
-	public WebElement chooseYourPaperlink;
-
+	
 	/********************************************************************************/
 
 	// Class Constructor
-	public ResearchCenter_Home(WebDriver driver) {
+	public Home(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 
