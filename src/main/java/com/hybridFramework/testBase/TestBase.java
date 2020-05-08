@@ -36,21 +36,12 @@ import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.BeforeMethod;
 import org.testng.asserts.SoftAssert;
-
-import com.hybridFramework.PageObject.ResearchCenter_AnalystReports;
-import com.hybridFramework.PageObject.ResearchCenter_CompanyInformation;
-import com.hybridFramework.PageObject.ResearchCenter_FindSources;
-import com.hybridFramework.PageObject.ResearchCenter_Footer;
-import com.hybridFramework.PageObject.Home;
-import com.hybridFramework.PageObject.ResearchCenter_MacroeconomicInformation;
-import com.hybridFramework.PageObject.ResearchCenter_NewsSources;
 import com.hybridFramework.excelReader.Excel_reader;
 import com.hybridFramework.helper.Browser.BrowserHelper;
 import com.hybridFramework.helper.Wait.WaitHelper;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-
 import de.sstoehr.harreader.HarReader;
 import de.sstoehr.harreader.model.HarEntry;
 import de.sstoehr.harreader.model.HarQueryParam;
